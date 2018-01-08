@@ -1,4 +1,8 @@
-# Legal Disclosure
+---
+title: "Legal Disclosure"
+date: null
+draft: true
+---
 
 Information in accordance with $5 TMG
 

@@ -1,10 +1,9 @@
 ---
-title: "Net Core"
+title: "Getting Started with .NET Core"
 date: 2018-01-04T11:42:00+01:00
 draft: true
+tags: ["dotnet-core", "ddd"]
 ---
-
-# Getting Started with .NET Core
 
 After using .NET Core since right away after it was announced at work, I was just starting my first private project with it. And: surprise, I had to learn again lots of the basic stuff that in our project just has been done (felt) decades ago.
 
@@ -26,7 +25,7 @@ As a matter of fact, I was kind of rusty when taking my first steps. So first of
 
 All of that can be pretty much taken from he official Postgres image on [Dockerhub](https://hub.docker.com/_/postgres/). The only (important) difference is that the container should be bound to localhost in order to be able to be reached from your app.
 
-```shell
+```bash
 docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 ```
 
@@ -34,11 +33,4 @@ docker run --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d
 
 ```bash
 dotnet ef migrations add Initial -s ..\StaticPagesComments.Service\StaticPagesComments.Service.csproj
-```
-
-```cs
-public CommentController (ILogger<CommentController> logger, ICommentModel model) {
-    _logger = logger;
-    _model = model;
-}
 ```
