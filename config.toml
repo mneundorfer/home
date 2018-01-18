@@ -1,4 +1,4 @@
-baseURL = "http://blog.mneundorfer.de"
+baseURL = "https://mneund.github.io/" # This is the deploy path of the page - required for correctly resolving the main.css
 languageCode = "en-us"
 title = "..."
 theme = "minimal"
