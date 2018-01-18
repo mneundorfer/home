@@ -8,6 +8,7 @@ install:
 
 script:
   - hugo
+  - echo "blog.mneundorfer.de" > public/CNAME
 
 deploy:
   provider: pages
