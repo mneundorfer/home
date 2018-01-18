@@ -1,13 +1,13 @@
 baseURL = "http://blog.mneundorfer.de"
 languageCode = "en-us"
-title = "Code & Beer"
+title = "..."
 theme = "minimal"
 #disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
     author = "Maximilian Neundorfer"
-    description = "Bamberg ‧ Beer ‧ Code"
+    description = "$ beer me!"
     profilePic = "img/view.jpg"
     dateFormat = "2006-01-02"
     accent = "#006699"
@@ -26,20 +26,25 @@ googleAnalytics = ""
     name = "Home"
     weight = 100
 
-[[menu.main]]
-    url = "/tech/"
-    name = "Tech"
-    weight = 200
+# [[menu.main]]
+#     url = "/tech/"
+#     name = "Tech"
+#     weight = 200
 
-[[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 300
+# [[menu.main]]
+#     url = "/misc/"
+#     name = "Misc"
+#     weight = 300
+
+# [[menu.main]]
+#     url = "/life/"
+#     name = "Life"
+#     weight = 400
 
 [[menu.main]]
     url = "/legal/"
     name = "Legal"
-    weight = 400
+    weight = 500
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
