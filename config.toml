@@ -1,0 +1,71 @@
+baseURL = "http://blog.mneundorfer.de"
+languageCode = "en-us"
+title = "..."
+theme = "minimal"
+#disqusShortname = "username" # delete this to disable disqus comments
+googleAnalytics = ""
+
+[params]
+    author = "Maximilian Neundorfer"
+    description = "$ beer me!"
+    profilePic = "img/view.jpg"
+    dateFormat = "2006-01-02"
+    accent = "#006699"
+    css = ["/css/custom.css"]
+    pluralizeListTitles = false
+    showBorder = true
+    copyright = "(c) 2018 Maximilian Neundorfer"
+    backgroundColor = "#ffffff"
+    font = "Fira Sans:300" # should match the name on Google Fonts! 300 defines the downloaded font-weight (has also to be set in the custom.css!)
+    highlight = true
+    highlightStyle = "monokai"
+    highlightLanguages = ["cs", "bash", "zsh", "docker", "powershell"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 100
+
+# [[menu.main]]
+#     url = "/tech/"
+#     name = "Tech"
+#     weight = 200
+
+# [[menu.main]]
+#     url = "/misc/"
+#     name = "Misc"
+#     weight = 300
+
+# [[menu.main]]
+#     url = "/life/"
+#     name = "Life"
+#     weight = 400
+
+[[menu.main]]
+    url = "/legal/"
+    name = "Legal"
+    weight = 500
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:mail@mneundorfer.de"
+    name = "envelope-o"
+    weight = 100
+
+[[menu.icon]]
+    url = "https://github.com/mneund/"
+    name = "github"
+    weight = 200
+
+[[menu.icon]]
+    url = "https://twitter.com/max9ba/"
+    name = "twitter"
+    weight = 300
+
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/username/"
+    name = "stack-overflow"
+    weight = 400

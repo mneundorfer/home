@@ -1,0 +1,13 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+}
+
+h2 {
+    color: #006699 !important;
+}
+
+pre {
+    background-color: transparent !important;
+    border: 0 !important;
+}
