@@ -1,4 +1,4 @@
-baseURL = "https://mneund.github.io/" # This is the deploy path of the page - required for correctly resolving the main.css
+baseURL = "https://mneund.github.io" # This is the deploy path of the page - required for correctly resolving the main.css
 languageCode = "en-us"
 title = "..."
 theme = "minimal"
@@ -26,10 +26,10 @@ googleAnalytics = ""
     name = "Home"
     weight = 100
 
-# [[menu.main]]
-#     url = "/tech/"
-#     name = "Tech"
-#     weight = 200
+[[menu.main]]
+    url = "/tech/"
+    name = "Tech"
+    weight = 200
 
 # [[menu.main]]
 #     url = "/misc/"
