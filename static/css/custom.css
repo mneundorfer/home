@@ -7,7 +7,19 @@ h2 {
     color: #006699 !important;
 }
 
+/* Customization of the code blocks */
+
+code, kbd, pre, samp, code span {
+    font-family: 'Fira Code' !important;
+}
+
+code span.hljs-title {
+    font-weight: normal !important;
+}
+
 pre {
     background-color: transparent !important;
     border: 0 !important;
 }
+
+/* End customization of code blocks */
