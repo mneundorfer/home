@@ -13,7 +13,7 @@ code, kbd, pre, samp, code span {
     font-family: 'Fira Code' !important;
 }
 
-code span.hljs-title {
+code span.hljs-title, code span.hljs-keyword {
     font-weight: normal !important;
 }
 

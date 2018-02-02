@@ -19,7 +19,7 @@ googleAnalytics = ""
     font = "Fira Sans:300" # should match the name on Google Fonts! 300 defines the downloaded font-weight (has also to be set in the custom.css!)
     highlight = true
     highlightStyle = "monokai"
-    highlightLanguages = ["cs", "bash", "zsh", "docker", "powershell"]
+    highlightLanguages = ["cs", "bash", "zsh", "docker", "powershell", "yml"]
 
 [[menu.main]]
     url = "/"
