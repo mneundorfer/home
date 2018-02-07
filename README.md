@@ -1,6 +1,6 @@
 # Home
 
-[![Build Status](https://travis-ci.org/mneund/home.svg?branch=master)](https://travis-ci.org/mneund/home)
+[![Build Status](https://travis-ci.org/mneundorfer/home.svg?branch=master)](https://travis-ci.org/mneundorfer/home)
 
 ## Local Build
 
@@ -8,4 +8,4 @@ Make sure [Hugo](https://gohugo.io) is installed (e.g. `choco install hugo -conf
 
 # Misc
 
-On sucessful build, the artifacts are deployed to [mneund.github.io](https://github.com/mneund/mneund.github.io), from where they are served via GitHub Pages.
+On sucessful build, the artifacts are deployed to [mneundorfer.github.io](https://github.com/mneundorfer/mneundorfer.github.io), from where they are served via GitHub Pages.
