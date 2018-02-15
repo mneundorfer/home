@@ -37,6 +37,9 @@ network={
 sudo nano /etc/network/interfaces
 
 # if configuration
+#auto eth0
+#  iface eth0 inet dhcp
+
 auto wlan0
   iface wlan0 inet dhcp
   wpa_conf /etc/wpa_supplicant/wpa_supplicant.conf
@@ -49,11 +52,4 @@ post-down iw dev wlan0 set power_save on
 ```bash
 # restart
 sudo ifdown wlan0 && sudo ifup wlan0
-```
-
-## Keyboard Config
-
-```bash
-sudo apt-get install keyboard-configuration
-dpkg-reconfigure keyboard-configuration
 ```
