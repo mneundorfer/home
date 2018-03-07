@@ -9,8 +9,8 @@ tags: ["docker", "docker-compose"]
 cloud:
   image: l3iggs/owncloud:daily
   ports: 
-    - "80:80"
-    - "443:443"
+    - 80:80
+    - 443:443
   volumes:
     - /oc-data:/usr/share/webapps/owncloud/data
 

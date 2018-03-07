@@ -1,7 +1,7 @@
 ---
 title: "PiHole"
 date: 2018-02-15T21:06:11+01:00
-draft: true
+draft: false
 tags: ["rpi", "docker", "pihole"]
 ---
 
@@ -30,6 +30,11 @@ docker run -d \
   -e ServerIPv6="${IPv6}" \
   --restart=unless-stopped \
   diginc/pi-hole-multiarch:debian_armhf
+```
+
+Make sure everything went fine
+```bash
+docker exec pihole pihole status
 ```
 
 ## Configuration
