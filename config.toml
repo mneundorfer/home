@@ -1,13 +1,13 @@
 baseURL = "https://blog.mneundorfer.de" # This is the deploy path of the page - required for correctly resolving the main.css
 languageCode = "en-us"
-title = "..."
+title = "blog.mneundorfer.de"
 theme = "minimal"
 #disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
     author = "Maximilian Neundorfer"
-    description = "$ beer me!"
+    description = "Notes on .NET Core and Home Automation"
     profilePic = "img/view.jpg"
     dateFormat = "2006-01-02"
     accent = "#006699"
@@ -31,15 +31,10 @@ googleAnalytics = ""
     name = "Tech"
     weight = 200
 
-# [[menu.main]]
-#     url = "/misc/"
-#     name = "Misc"
-#     weight = 300
-
-# [[menu.main]]
-#     url = "/life/"
-#     name = "Life"
-#     weight = 400
+[[menu.main]]
+    url = "/home-automation/"
+    name = "Home Automation"
+    weight = 300
 
 [[menu.main]]
     url = "/legal/"

@@ -3,6 +3,7 @@ title: ".NET Core Microservice Template"
 date: 2018-01-04T11:42:00+01:00
 draft: true
 tags: ["netcore", "ddd"]
+description: 
 ---
 
 After using .NET Core since right away after it was announced at work, I was just starting my first private project with it. And: surprise, I had to learn again lots of the basic stuff that in our project just has been done (felt) decades ago.

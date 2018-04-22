@@ -1,5 +1,5 @@
 ---
-title: "RPi3, Hypriot & Kubernetes"
+title: "RPi3 & HypriotOS"
 date: 2018-02-11T22:06:11+01:00
 draft: false
 tags: ["rpi", "hypriot", "docker"]
