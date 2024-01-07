@@ -1,0 +1,20 @@
+baseURL: 'https://blog.mneundorfer.de'
+languageCode: en-us
+title: MaxMinutes
+keywords: [.NET, DDD, Home Automation]
+theme: PaperMod
+params:
+  homeInfoParams:
+    Title: Random Notes on Arbitrary Topics
+    Content: 
+  socialIcons:
+    - url: 'https://www.stackoverflow.com/m2dax/'
+      name: stackoverflow
+    - name: github
+      url: 'https://github.com/mneundorfer/'
+menu:
+  main:
+    - url: /
+      name: Home
+    - url: /legal/
+      name: Legal

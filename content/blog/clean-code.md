@@ -11,7 +11,7 @@ Here, I have distilled the rules which seemed most important for *me* to write d
 
 ## Terms / Concepts
 
-* Single Responsibility Principle `SRP`
+* Single Responsibility Principle `SRP`: A class should only have one reason to change
 * Open/Closed Principle `OCP`
 
 ## Names
@@ -28,7 +28,7 @@ Here, I have distilled the rules which seemed most important for *me* to write d
 | Rule                  | Description       | Example       |
 | --------------------- | ----------------- | ------------- |
 | Small                 | Keep functions small. *Really* small. This plays nicely together with "Do one Thing". Rule of thumb: 10 lines are the absolute maximum, less is better
-| Do *one* Thing | See "Small" and `SRP`. A function should do exactly one thing, but it should do that well
+| Do *one* Thing        | See "Small" and `SRP`. A function should do exactly one thing, but it should do that well
 | One Level of Abstraction | Avoid mixing levels of abstraction, such as low-level string functions (`append`) and higher-level functions of more complex objects, such as `render` |
 | Avoid `switch`        | By definition, does more than one thing. If cannot be avoided, try to bury as deep down as possible | 
 | Number of Arguments   | Monadic and dyadic functions should be preferred, triads be avoided at all (or only used in very rare occasions). See also: `SRP`. Also bad: boolean arguments (already suggests that `SRP` is violated)
